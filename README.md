@@ -348,6 +348,16 @@ If you use DeceptiNet in your research, please cite:
   journal = {Under Review},
   year    = {2026}
 }
+
+@inproceedings{elbattawy2025novel,
+  title        = {A Novel Approach for Enhancing Audio Modality in Multimodal
+                  Deception Detection Environment Using Liquid Neural Networks},
+  author       = {Elbattawy, Ahmed T and Badran, Khaled M and Elhadad, Mohamed K},
+  booktitle    = {2025 15th International Conference on Electrical Engineering (ICEENG)},
+  pages        = {1--6},
+  year         = {2025},
+  organization = {IEEE}
+}
 ```
 
 ---
@@ -358,6 +368,12 @@ If you use DeceptiNet in your research, please cite:
 - [Liquid Neural Networks](https://arxiv.org/abs/2006.04439) — Hasani et al., 2021
 - [DOLOS Dataset](https://arxiv.org/abs/2311.12568) — Guo et al., 2023
 - [Real-Life Trial Dataset](https://github.com/LCS2-IIITD/Deception-Detection) — Pérez-Rosas et al., 2015
+
+This work extends the author's prior research on audio-based deception detection:
+
+> **A Novel Approach for Enhancing Audio Modality in Multimodal Deception Detection Environment Using Liquid Neural Networks**
+> Ahmed T. Elbattawy, Khaled M. Badran, Mohamed K. Elhadad
+> *2025 15th International Conference on Electrical Engineering (ICEENG)*, IEEE, pp. 1–6
 
 ---
 
