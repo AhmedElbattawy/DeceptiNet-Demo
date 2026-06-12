@@ -1,0 +1,70 @@
+# ── Python ───────────────────────────────────────────────────────────────────
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+.eggs/
+*.spec
+
+# ── Virtual environments ──────────────────────────────────────────────────────
+.venv/
+venv/
+env/
+ENV/
+
+# ── Model weights & checkpoints ───────────────────────────────────────────────
+# Large binary weights — use Git LFS:
+#   git lfs install
+#   git lfs track "checkpoints/*.pt" "checkpoints/*.pth"
+#   git add .gitattributes
+# Without LFS, ignore them (GitHub 100 MB hard limit).
+checkpoints/*.pt
+checkpoints/*.pth
+checkpoints/*.bin
+checkpoints/*.safetensors
+# Exception: keep the placeholder
+!checkpoints/.gitkeep
+
+# ── Demo recordings (can be large) ────────────────────────────────────────────
+recordings/
+*.mp4
+*.avi
+*.mov
+*.wav
+# Allow demo screenshots and paper figures in assets/
+!assets/demo_deception.jpg
+!assets/demo_truth.jpg
+!assets/demo_expression.jpg
+!assets/architecture.png
+!assets/roc_curves.png
+!assets/confusion_matrices.png
+!assets/uncertainty.png
+
+# ── Jupyter notebooks ─────────────────────────────────────────────────────────
+.ipynb_checkpoints/
+*.ipynb
+
+# ── IDEs ──────────────────────────────────────────────────────────────────────
+.vscode/
+.idea/
+*.code-workspace
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
+
+# ── Logs & caches ─────────────────────────────────────────────────────────────
+logs/
+*.log
+wandb/
+.cache/
+
+# ── Temporary files ───────────────────────────────────────────────────────────
+tmp/
+temp/
+*.tmp

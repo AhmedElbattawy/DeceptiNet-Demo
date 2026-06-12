@@ -1,0 +1,6 @@
+# Git LFS — track large model weight files
+# Setup: git lfs install && git add .gitattributes && git commit -m "Add LFS tracking"
+checkpoints/*.pt filter=lfs diff=lfs merge=lfs -text
+checkpoints/*.pth filter=lfs diff=lfs merge=lfs -text
+checkpoints/*.bin filter=lfs diff=lfs merge=lfs -text
+checkpoints/*.safetensors filter=lfs diff=lfs merge=lfs -text

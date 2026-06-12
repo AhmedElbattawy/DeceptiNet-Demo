@@ -1,0 +1,33 @@
+# DeceptiNet Demo — Python dependencies
+# Install with: pip install -r requirements.txt
+
+# ── Core ML ──────────────────────────────────────────────────────────────────
+torch>=2.0.0
+torchvision>=0.15.0
+torchaudio>=2.0.0          # optional; librosa used as fallback
+
+# ── Computer Vision ──────────────────────────────────────────────────────────
+opencv-python>=4.7.0
+Pillow>=9.5.0
+timm>=0.9.0                # for DINOv3 ViT backbone
+
+# ── Audio ────────────────────────────────────────────────────────────────────
+pyaudio>=0.2.11            # real-time microphone capture
+librosa>=0.10.0            # MFCC extraction (fallback when torchaudio unavailable)
+soundfile>=0.12.0          # audio I/O
+
+# ── Numerical / Scientific ───────────────────────────────────────────────────
+numpy>=1.24.0,<2.0.0
+scipy>=1.10.0
+
+# ── Utilities ────────────────────────────────────────────────────────────────
+tqdm>=4.65.0
+
+# ── Visualisation (optional, for extract_dinov3_features.py --visualize) ─────
+matplotlib>=3.7.0
+
+# ── System notes ─────────────────────────────────────────────────────────────
+# Linux:  sudo apt-get install portaudio19-dev ffmpeg
+# macOS:  brew install portaudio ffmpeg
+# Windows: install ffmpeg from https://ffmpeg.org/download.html
+#          and add to PATH
