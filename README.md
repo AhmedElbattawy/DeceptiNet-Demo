@@ -341,12 +341,12 @@ The full training pipeline — data loaders, multi-task loss (`L_deception + L_a
 If you use DeceptiNet in your research, please cite:
 
 ```bibtex
-@article{elbattawy2025deceptinet,
+@article{elbattawy2026deceptinet,
   title   = {DeceptiNet: Uncertainty-Aware Multimodal Deception Detection
              via Liquid Neural Networks and DINOv3 Micro-Expression Analysis},
   author  = {Elbattawy, Ahmed},
   journal = {Under Review},
-  year    = {2025}
+  year    = {2026}
 }
 ```
 
